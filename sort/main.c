@@ -15,8 +15,8 @@ int main(int argc, const char * argv[]) {
     int i,j,temp;
     FILE *fp1;
     FILE *fp2;
-    fp1=fopen("//Users/a20161104568/Desktop/sort1//input.txt","r+");
-    fp2=fopen("//Users/a20161104568/Desktop/sort1//output.txt","w+");
+    fp1=fopen("//Users/a20161104568/Desktop/sort//input.txt","r+");
+    fp2=fopen("//Users/a20161104568/Desktop/sort//output.txt","w+");
     if(fp2==NULL)
     {
         printf("打开文件错误，要打开的文件不存在");
